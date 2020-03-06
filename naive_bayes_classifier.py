@@ -3,6 +3,7 @@ from csv import reader
 from math import sqrt
 from math import exp
 from math import pi
+import sys
 
 # Load a CSV file
 
@@ -117,7 +118,8 @@ str_column_to_int(dataset, len(dataset[0])-1)
 model = summarize_by_class(dataset)
 
 # define a new record
-row = [0.58,1.29]
+# row = [0.58,1.29]
+row = [float(sys.argv[1]), float(sys.argv[2])]
 
 # predict the label
 label = predict(model, row)

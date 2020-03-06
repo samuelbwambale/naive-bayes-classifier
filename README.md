@@ -11,8 +11,7 @@ In the training data, we have the height and length for 10 dogs, 10 horses and 1
 ## Setup
 
 * Run `git clone` this repository and `cd` into the project root.
-* Edit line `120` of the file `naive_bayes_classifier.py` with the height and length of the animal you would like to classify. Please take note of the average height and length of a dog, horse or elepehant
-* Run `python naive_bayes_classifier.py` on command prompt
+* Run `python naive_bayes_classifier.py HEIGHT LENGTH` on command prompt. `HEIGHT` and `LENGTH` are the height and length of the animal that we would like to classify. They are of float data type. Example of `dog` height and length is `0.58` `1.29`
 
 ------
 Average height of a dog: 0.5 - 0.67 ft
